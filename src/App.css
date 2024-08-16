@@ -38,7 +38,7 @@ header button.rounded-circle .nav-icon {
   font-size: 22px !important;
 }
 header button.rounded-circle:hover .nav-icon,
-.goSearch {
+.fiSearch {
   color: #0858f7;
 }
 
@@ -58,8 +58,8 @@ header button.rounded-circle:hover .nav-icon,
   margin-left: 10px;
 }
 .goSearchBox:hover .fiSearch,
-.goSearchBox input:focus .fiSearch {
-  color: #0858f7;
+.goSearchBox input[type="search"]:focus .fiSearch {
+  color: #0858f7 !important;
 }
 .goSearchBox input {
   width: 100%;
@@ -86,4 +86,37 @@ header button.rounded-circle:hover .nav-icon,
   color: #5e5d72;
   font-size: 15px;
   font-weight: 500;
+}
+
+/* Header Right Side  */
+.rounded-circle img {
+  width: 40px;
+  height: 40px;
+  border-radius: 100px;
+  border: 1.5px solid #0858f7;
+  padding: 1.5px;
+  margin-right: 10px;
+}
+.myAcc h4 {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: 600 !important;
+  text-transform: capitalize;
+  color: #403e57;
+  margin-bottom: 0px !important;
+  letter-spacing: 0px;
+}
+.myAcc span {
+  font-size: 12px;
+  font-weight: 500;
+  color: #5e5d72;
+  padding: 4px 0px 0px 0px !important;
+}
+.headerToggle {
+  margin-top: -4px;
+}
+
+.menu-icon svg {
+  font-size: 22px;
+  margin: 18px !important;
 }
